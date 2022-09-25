@@ -57,7 +57,7 @@ else:
 
 
 height_len = 400
-if count_row > 30:
+if count_row > 20:
     height_len = 1000 
 #st.markdown(height_len)
 fig=px.bar(df,x='Rating',y='Drug', orientation='h', color='Rating', color_continuous_scale=px.colors.sequential.Blues, height=height_len)
